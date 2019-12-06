@@ -1,0 +1,24 @@
+{
+  "name": "javascript-exercises",
+  "version": "1.0.0",
+  "description": "Complete 2 Algorithmic questions and 1 Javascript conceptual question everyday.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashpandit/javascript-exercises.git"
+  },
+  "keywords": [
+    "Algorithms",
+    "JavaScript",
+    "Concepts"
+  ],
+  "author": "Yash Pandit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashpandit/javascript-exercises/issues"
+  },
+  "homepage": "https://github.com/yashpandit/javascript-exercises#readme"
+}
