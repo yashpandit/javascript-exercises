@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/yashpandit/javascript-exercises/issues"
   },
-  "homepage": "https://github.com/yashpandit/javascript-exercises#readme"
+  "homepage": "https://github.com/yashpandit/javascript-exercises#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
 }
