@@ -1,2 +1,2 @@
 # javascript-exercises
-Complete 2 Algorithmic questions and 1 Javascript conceptual question everyday.
+Complete 2 Algorithmic Questions and 1 Javascript Conceptual Question Everyday.
