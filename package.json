@@ -4,7 +4,7 @@
   "description": "Complete 2 Algorithmic questions and 1 Javascript conceptual question everyday.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run jest"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
