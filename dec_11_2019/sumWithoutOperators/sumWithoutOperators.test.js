@@ -1,4 +1,4 @@
-const getSum = require('./sumWithoutPlus');
+const getSum = require('./sumWithoutOperators');
 
 describe('sum without operators', () => {
   test('should return sum of the inputs', () => {
