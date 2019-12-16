@@ -10,7 +10,7 @@ describe('minStack', () => {
   test('should push the element on top of the stack', () => {
     expect(minStack.top()).toBe(-3);
     minStack.pop();
-    minStack.top();
+    expect(minStack.top()).toBe(0);
     expect(minStack.getMin()).toBe(-2);
   });
 
