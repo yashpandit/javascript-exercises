@@ -1,4 +1,4 @@
-import { getLongestCommonPrefix } from './longestCommonPrefix';
+const getLongestCommonPrefix = require('./longestCommonPrefix');
 
 describe('longest common prefix of given strings', () => {
   test('should throw error if empty array passed as input', () => {

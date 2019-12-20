@@ -32,4 +32,4 @@ const getLongestCommonPrefix = (strings) => {
   return longestCommonPrefix;
 };
 
-export { getLongestCommonPrefix };
+module.exports = getLongestCommonPrefix;
