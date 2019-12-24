@@ -1,12 +1,14 @@
-const reverse = (n) => {
+const reverse = (number) => {
   let reverseNumber = 0;
-  let sign = n < 0;
-  n = Math.abs(n);
-  while (n) {
-    reverseNumber = reverseNumber * 10 + (n % 10);
-    n = Math.floor(n / 10);
+  let sign = number < 0;
+  number = Math.abs(number);
+
+  while (number) {
+    reverseNumber = reverseNumber * 10 + (number % 10);
+    number = Math.floor(number / 10);
   }
-  return reverseNumber > 0x7FFFFFFF
+
+  return reverseNumber > Math.pow(2, 31)
     ? 0
     : sign
       ? -reverseNumber

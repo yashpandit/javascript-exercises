@@ -1,7 +1,7 @@
 const dominantIndex = (numbers) => {
-  let max = Math.max(...numbers),
-    len = numbers.length,
-    flag = false;
+  let max = Math.max(...numbers)
+  let len = numbers.length;
+  let flag = false;
 
   if (len === 1) return 0;
 

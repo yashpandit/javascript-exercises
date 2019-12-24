@@ -1,15 +1,16 @@
-const isPalindrome = (n) => {
-  let copyOfN = n;
+const isPalindrome = (number) => {
+  let copyOfN = number;
   let reverseNumber = 0;
-  let sign = n < 0;
+  let sign = number < 0;
+
   if (sign === true) {
     return false;
   }
-  n = Math.abs(n);
+  number = Math.abs(number);
 
-  while (n) {
-    reverseNumber = reverseNumber * 10 + (n % 10);
-    n = Math.floor(n / 10);
+  while (number) {
+    reverseNumber = reverseNumber * 10 + (number % 10);
+    number = Math.floor(number / 10);
   }
 
   return reverseNumber == copyOfN ? true : false;
