@@ -9,7 +9,8 @@ const numJewelsInStones = (J, S) => {
       S.splice(i, 1);
       count++;
       i--;
-    } else i++;
+    }
+    i++;
   }
   return count;
 };
