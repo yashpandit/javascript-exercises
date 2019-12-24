@@ -1,5 +1,5 @@
 const isPalindrome = (number) => {
-  let copyOfN = number;
+  let numberCopy = number;
   let reverseNumber = 0;
   let sign = number < 0;
 
@@ -13,7 +13,7 @@ const isPalindrome = (number) => {
     number = Math.floor(number / 10);
   }
 
-  return reverseNumber == copyOfN ? true : false;
+  return reverseNumber == numberCopy ? true : false;
 };
 
 module.exports = isPalindrome;
