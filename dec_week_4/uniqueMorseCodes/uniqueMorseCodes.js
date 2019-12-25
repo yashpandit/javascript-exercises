@@ -3,7 +3,9 @@ const uniqueMorseRepresentations = (words) => {
   let transformation = [];
 
   for (let word of words) {
-    let transformLetter = word.split('').reduce((transformedLetter, toTransform) => transformedLetter + morseCodes[toTransform], '');
+    let transformLetter = word.split('').reduce((transformedLetter, toTransform) =>
+      transformedLetter + morseCodes[toTransform],
+      '');
     if (!transformation.includes(transformLetter)) {
       transformation.push(transformLetter);
     }
