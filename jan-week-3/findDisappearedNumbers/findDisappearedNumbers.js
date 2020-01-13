@@ -26,3 +26,5 @@ const findDisappearedNumbers = (nums) => {
   })
   return res
 };
+
+module.exports = findDisappearedNumbers;
